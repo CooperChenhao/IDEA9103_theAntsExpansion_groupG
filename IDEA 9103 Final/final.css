@@ -1,0 +1,48 @@
+canvas {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#text-container {
+    float: right;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+  }
+@media screen and (max-aspect-ratio: 3/4) {
+    body {
+      font-size: 14px;
+    }
+  
+    #text-container {
+      float: none;
+      margin: 0 auto;
+      margin-top: 10px;
+      margin-right: 20px;
+      margin-left: 20px;
+      max-width: 810px;
+      max-height: 1080px;
+    }
+  }
+  
+  @media screen and (min-aspect-ratio: 16/9) {
+    body {
+      font-size: 18px;
+    }
+  
+    #text-container {
+      float: right;
+      margin-right: 20px;
+      margin-left: 20px;
+      margin-top: 20px;
+      max-width: 540px;
+      max-height: 960px;
+    }
+  }
